@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<form>
+		Enter Celcius: <input type="text" name="txtCelcius"><br>
+		Value in Fahrenheit: <input type="text" name="txtFahrenheit"><br>
+		<input type="button" onclick ="age2(this.form)" value="Calculate">
+	</form>
+
+	<script>
+		function age2(form){
+	   		form.txtFahrenheit.value  = form.txtCelcius.value * 9 / 5 + 32
+		}
+	</script>
+
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>number</title>
+
+</head>
+
+<body>
+
+
+    
+
+    <form>
+
+    <p>PLACE TWO NUMBERS HERE</p>
+
+    <input type="text" name="a">
+
+    <input type="text" name="b">
+
+    <button onclick ="shownum(this,form)">SHOW ME</button>
+
+    <BR/> THE LARGER NUMBER IS<br>
+
+    <input type="text" name="c">
+
+    </form>
+
+<script>
+    function shownum(form){
+        if (form.a.value > form.b.value){
+            form.c.value = form.a.value
+        }
+            else { form.c.value = form.b.value
+        }
+    </script>
+
+
+
+</script>
+
+</body>
+
+</html>

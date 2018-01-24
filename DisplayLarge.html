@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<form>
+		Enter first value: <input type="text" name="txtFirst"><br>
+		Enter second value: <input type="text" name="txtSecond"><br>
+		<input type="button" onclick ="age2(this.form)" value="Calculate">
+		<input type="text" name="Ans">
+	</form>
+
+	<script>
+		function age2(form){
+
+			var x  = form.txtFirst.value
+			var y = form.txtSecond.value
+
+			// form.Ans.value = Math.max(x,y);
+
+	   		if (x > y){
+	   			form.Ans.value = x
+	   		} else {
+	   			form.Ans.value = y
+	   		}
+		}
+
+	</script>
+
+</body>
+</html>
